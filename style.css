@@ -1,0 +1,232 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+.container{
+    max-width: 1180px;
+    margin: 0px auto;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    flex: 1 1 auto;  
+}
+.hi{
+    background-color: #dcb7d2;
+    padding: 50px 0;
+}
+.hi_row{
+    display: flex;
+    justify-content: space-between;
+}
+.hi_body{
+    color: #fff;
+}
+.hi_title{
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3 );
+    font-size: 35px;
+    margin: 0px 0px 38px 0px;
+}
+.hi_list li{
+    list-style: none;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    line-height: 22px;
+    padding: 0px 0px 0px 36px;
+    margin: 0px 0px 15px 0px;
+}
+.hi_list li:last-child{
+    margin: 0;
+}
+.title{
+    color: #dcb7d2;
+    font-size: 30px;
+    line-height: 36px;
+}
+.what{
+    padding: 50px 0;
+}
+.what_row{
+    display: flex;
+}
+.what_image{
+    flex: 0 0 330px;
+}
+.what_image img{
+    max-width: 100%;
+}
+.what_body{
+    flex: 1 1 auto;
+}
+.what_title{
+    margin: 0px 0px 33px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.what_text{
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 0px 0px 36px;
+    margin: 0px 0px 15px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.what_text li{
+    list-style: none;
+    color: #dcb7d2;
+}
+.what_text-items::before{
+    content: "♥";
+    margin-right: 10px;
+    color: #dcb7d2;
+}
+.colums{
+    background-color: #faf7fa;
+    padding: 50px 0 20px 0;
+}
+.colums_title{
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.colums_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -8px;
+}
+
+.colums_column{
+    padding: 0px 8px;
+    flex: 0 1 50%;
+    margin: 0px 0px 20px 0px;
+}
+.columns_item{}
+.item{}
+.item_row{
+    display: flex;
+}
+.item_image{
+    flex: 0 0 200px; 
+}
+.item_body{
+    flex: 1 1 auto;
+    padding: 0px 0px 0px 15px;
+}
+.item_title{
+    color: #94808f;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0px 0px 13px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.item_text{
+    color: #dcb7d2;
+    font-size: 19px;
+    line-height: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer {
+    background-color: #f5f5f5;
+}                             
+.footer_row{
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+}                  
+.footer_text{
+    color: #445162;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hi_list-item::before{
+    content: "♥";
+    margin-right: 10px;
+}
+.hi_list-item{
+    font-family: 'Courier New', Courier, monospace;
+}
+.vertical {
+    padding: 50px 0;
+}
+.vertical_title {
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.vertical_body {
+    max-width: 990px;
+    margin: 0px auto;
+}
+.vertical_row {
+    display: flex;
+    margin: 0px -22.5px;
+}
+.vertical_column {
+    flex: 0 1 33.333%;
+    padding: 0px 22.5px;
+    display: flex;
+}
+.vertical_item {
+    background-color: #dcb7d2;
+    border-radius: 5px;
+    padding: 0px 0px 20px 0px;
+    border: 1px solid #dcb7d2;
+    display: flex;
+    flex-direction: column;
+}
+.vertical_subtitle {
+    color: #8b7886;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 12px 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.vertical_label {
+    color: #8b7886;
+    background-color: #f8f6f7;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.vertical_text {
+    color: #8b7886;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    flex: 1 1 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+.vertical_btn {
+    display: block;
+    height: 40px;
+    background-color: #f8f6f7;
+    margin: 0px 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #8b7886; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 800px) {
+    .colums_row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0px -8px;
+    }
+}
